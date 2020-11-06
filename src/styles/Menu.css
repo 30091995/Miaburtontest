@@ -1,0 +1,122 @@
+.container{
+    display: none;
+}
+
+
+@media only screen and (min-width: 1026px){
+#small-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 34px;
+    padding-bottom: 39px;
+    height: 18px;
+}
+
+.link-box{
+    padding-top: 3px;
+    padding-bottom: 37px;
+}
+
+
+#small-menu li{
+    list-style: none;
+    padding-left: 36px;
+}
+
+
+.container{
+    display: flex;
+    height: 91px;
+    background: var(--white) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+
+
+.box-image{
+    width: 221px;
+    height: 26px;
+    padding-left: 160px; 
+    padding-right: 262px;
+    padding-top: 31px;
+    padding-bottom: 34px;;
+}
+
+.corners{
+    border: 1px solid;
+}
+
+.container > ul{
+    margin: 0px;
+    padding-left: 14px;
+    height: 57px;
+}
+
+
+.dropdown-button{
+    padding: 0px;
+    background-color: white;
+    border: none;
+}
+
+
+#small-menu > li, button{
+
+    color: inherit;
+    letter-spacing: var(--unnamed-character-spacing-0-34);
+    color: var(--black);
+    text-align: left;
+    font: normal normal normal 14px/14px Glacial Indifference;
+    letter-spacing: 0.34px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+
+}
+
+.icons-container{
+    padding-left: 383px;
+    padding-right: 160px;
+    padding-top: 31px;
+    display: flex;
+}
+
+.icon-box{
+    padding-left: 20px;
+}
+
+.dropdown {
+    display: inline-block;
+  }
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    top: 90px;
+    left: 0;
+    /*margin-top: 40.7px;*/
+    background: var(--white) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 6px 6px #00000029;
+    opacity: 1;
+    z-index: 1;
+    padding-top: 55px;
+    /*padding-left: 160px;*/
+    /*padding-right:160px;*/
+    padding-bottom: 95px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.container > a:hover, .dropdown:hover .dropdown-button {
+    border-bottom: 1px solid;
+  }
+}

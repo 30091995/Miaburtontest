@@ -1,0 +1,118 @@
+.padding-top-null{
+    padding-top: 0px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 160px;
+}
+.col{
+    float: left;
+}
+
+.sub-menu-box{
+    padding-top: 41px;
+}
+
+.sub-menu-title-box{
+    height: 13px;
+}
+
+.sub-menu-title-style{
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 10px/var(--unnamed-line-spacing-18) var(--unnamed-font-family-glacial-indifference);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--gray);
+text-align: left;
+letter-spacing: 0px;
+color: #A2A2A2;
+text-transform: uppercase;
+opacity: 1;
+}
+
+
+#first-sub-menu > div, #second-sub-menu > div, #third-sub-menu > div,
+#fourth-sub-menu > div, #fifth-sub-menu > div
+{
+    padding-top: 10px;
+    width: 240px;
+}
+
+.item-style{
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-14)/20px var(--unnamed-font-family-glacial-indifference);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--black);
+text-align: left;
+letter-spacing: 0px;
+opacity: 1;
+padding-top: 6px;
+padding-bottom: 6px;
+}
+
+#fifth-sub-menu img{
+    padding-top: 10,5px;
+    padding-bottom: 10,5px;
+    width: 10px;
+    height: 9px;
+    padding-right: 8px;
+}
+
+#second-sub-bmenu, #thirsd-sub-menu, #fourth-sub-menu, #fifth-sub-menu, #image-col, #image-col-2
+{
+    margin-left: 32px;
+}
+
+.big-box-picture{
+    margin-top: 32px;
+}
+
+.big-picture{
+    width: 376px;
+    height: 495px;
+    opacity: 1;
+}
+
+#image-col, #image-col-2{
+    position: relative;
+}
+
+.caption-picture{
+    position: absolute;
+    bottom: 33px;
+    left : 10px;
+    width: 312px;
+    height: 26px;
+
+}
+
+.small-caption-picture{
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    width: 312px;
+    height: 23px;
+
+}
+
+#image-col h4, #image-col-2 h4{
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 21px/35px var(--unnamed-font-family-glacial-indifference);
+color: var(--white);
+text-align: left;
+font: normal normal bold 21px/35px Glacial Indifference;
+letter-spacing: 0.53px;
+color: #FFFFFF;
+text-transform: uppercase;
+opacity: 1;
+margin: 0px;
+}
+
+
+#image-col h3, #image-col-2 h3{
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-30) var(--unnamed-font-family-glacial-indifference);
+color: var(--white);
+text-align: left;
+font: normal normal normal 18px/30px Glacial Indifference;
+letter-spacing: 0.45px;
+color: #FFFFFF;
+opacity: 1;
+margin: 0px;
+}
